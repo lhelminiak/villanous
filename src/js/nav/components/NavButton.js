@@ -59,13 +59,13 @@ export default class NavButton extends Component {
                 <svg
                     viewBox="0 0 96 96"
                     // height="1em"
-                    onClick={() => this.setState({navOpen: !this.state.navOpen})}
+                    onClick={this.props.toggleNav}
                     style={style}
                 >
                     <Motion
                         style={{
-                            x: spring(this.state.navOpen ? 1 : 0, presets.wobbly ),
-                            y: spring(this.state.navOpen ? 0: 1, presets.wobbly ),
+                            x: spring(this.props.navOpen ? 1 : 0, presets.wobbly ),
+                            y: spring(this.props.navOpen ? 0: 1, presets.wobbly ),
                         }}
                     >
                         {({ x, y }) =>
@@ -74,8 +74,8 @@ export default class NavButton extends Component {
                                 fill="none"
                                 stroke="white"
                                 strokeWidth="9"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
+                                strokeLinecap="square"
+                                strokeLinejoin="square"
                             >
                                 <line
                                     transform={`translate(${x * 12}, ${x * -7}) rotate(${x * 45}, 7, 26)`}
