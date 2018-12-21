@@ -1,0 +1,150 @@
+.teamMemberContainer{
+    position: relative;
+    width: calc((100% / 3) - 10px);
+    height: 400px;
+    margin-top: 10px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: stretch;
+}
+
+.teamMemberImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 100%;
+    border-radius: 2px;
+
+}
+
+.teamMemberImage-overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(143, 73, 185, 0.69);
+    border-radius: 2px;
+    box-shadow: inset 0 0 1px #ffc;
+}
+
+.teamMemberInfoContainer{
+    z-index: 2;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.teamMemberInfo{
+    height: 90%;
+    width: 95%;
+    background-color: black;
+    border-radius: 2px;
+    box-shadow: inset 0 0 1px #ffc;
+}
+
+.teamMemberInfo > .infoColumn{
+    flex: 1;
+    align-self: stretch;
+}
+
+.teamMemberInfo > .infoColumn:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.teamMemberInfo > .infoColumn:nth-child(1) > h4{
+    color: white;
+    text-transform: capitalize;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 400;
+    margin-bottom: 0 !important;
+}
+
+.teamMemberInfo > .infoColumn:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.teamMemberInfo > .infoColumn:nth-child(2) > p{
+    text-transform: capitalize;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0 !important;
+    margin-left: 10px;
+}
+
+.teamMemberInfo > .infoColumn:nth-child(3){
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin-top: 10px;
+}
+
+
+.socialsContainer{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.iconContainer{
+    position: relative;
+    cursor: pointer;
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialLink{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+.iconContainer > svg {
+    font-size: 25px;
+}
+
+
+
+.flagContainer{
+    flex: 1;
+    align-self: stretch;
+}
