@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import '../../css/home/homebase.css';
 
-
-
 import HomeHeader from './components/Header';
 import Team from './components/Team';
+import Games from './components/Games';
+
 
 
 export default class HomeBase extends Component {
@@ -43,8 +43,7 @@ export default class HomeBase extends Component {
             <div className="homeBase">
                 <HomeHeader/>
                 <Team/>
-
-
+                <Games/>
 
             </div>
         );
