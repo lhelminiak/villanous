@@ -1,4 +1,5 @@
 .homeHeader{
+    /*margin-top: 60px;*/
     height: 100vh;
     width: 100vw;
     position: relative;
@@ -11,8 +12,6 @@
     left: 0;
     height: 100%;
     width: 100%;
-
-
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;

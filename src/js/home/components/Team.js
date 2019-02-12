@@ -40,7 +40,7 @@ export default class Team extends Component {
             <div className="teamContainer">
                 <div className="teamHeaderContainer">
                     <h4>We Are Villainous</h4>
-                    <p>A creative agency that de-risks brave commercial decision making by being creatively courageous, strategically forensic, digitally progressive, data smart and behaviour driven.</p>
+                    <p>A gaming team that de-risks brave decisions making by being courageous, strategic, smart and driven.</p>
                 </div>
 
                 <div className="listContainer">

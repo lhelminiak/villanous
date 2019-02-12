@@ -60,7 +60,7 @@ export default class HomeHeader extends Component {
 
 
                 <div className="homeHeaderOverlay">
-                    <img className="headerLogo" src="https://firebasestorage.googleapis.com/v0/b/code-store-cac5b.appspot.com/o/images%2Flogo.png?alt=media&token=cdb741d8-3006-4b18-b2b2-86d41ba065aa" alt="logo"/>
+                    <img className="headerLogo" src="https://firebasestorage.googleapis.com/v0/b/villainous-2aecc.appspot.com/o/mascot%20%2B%20text%20(stroke).png?alt=media&token=eb0a45ad-ba51-4a47-ae20-f130852df2cd" alt="logo"/>
                 </div>
 
             </div>

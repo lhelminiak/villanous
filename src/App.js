@@ -6,12 +6,16 @@ import './App.css';
 //components
 import NavButton from '../src/js/nav/components/NavButton';
 import NavMenu from '../src/js/nav/components/NavMenu';
+import SimpleNav from '../src/js/nav/components/SimpleNav';
+
 
 
 
 
 //pages
 import HomeBase from '../src/js/home/HomeBase'
+import GamePage from '../src/js/gamepage/GamePage';
+
 
 class App extends Component {
 
@@ -48,20 +52,16 @@ class App extends Component {
             <Router history={history}>
                 <div className="App">
 
-                    <NavButton navOpen={this.state.navOpen} toggleNav={this.toggleNav}/>
-                    <NavMenu navOpen={this.state.navOpen}/>
-
-
-
-
+                    {/*<NavButton navOpen={this.state.navOpen} toggleNav={this.toggleNav}/>*/}
+                    {/*<NavMenu navOpen={this.state.navOpen}/>*/}
+                    <SimpleNav/>
 
 
 
 
                   <div>
                       <Route exact={true} path='/' component={HomeBase} />
-
-
+                      <Route path='/games' component={GamePage}/>
                   </div>
 
                 </div>

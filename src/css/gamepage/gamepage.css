@@ -1,0 +1,134 @@
+.greyBackground{
+    background-color: #2f2d31;
+}
+
+.gamePage{
+    margin-top: 60px;
+}
+
+.gamePageHeader{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("https://greenwall-gg.s3.amazonaws.com/teams/header/greenwall-expanded-cod-team-bgnd.jpg");
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+
+.gamePageHeader > h1{
+    flex: 1;
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 10%;
+}
+
+.gameSelectContainer{
+    flex-basis: 15%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    background-color: #2f2d31;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center ;
+}
+.gameSelectContainer > .gameSelectLogo{
+    cursor: pointer;
+    /*background-image: url('https://firebasestorage.googleapis.com/v0/b/code-store-cac5b.appspot.com/o/images%2FfortniteLogo-white.png?alt=media&token=294ada4c-880c-4e17-928e-6f1e178c521a');*/
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 100px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*end header*/
+
+
+/*start overview and achievements*/
+.overviewAndAchievements{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.overviewContainer{
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    border-right: 1px solid black;
+}
+
+.overviewContainer > h4{
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.overviewContainer > p{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 500;
+}
+
+.achievementsContainer{
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.achievementsContainer > h4{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+/*end overview and achievements*/
+
+
+/*start roster*/
+
+.currentRosterHeader{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.currentRosterHeader > h4{
+    font-size: 45px;
+    text-transform: uppercase;
+}

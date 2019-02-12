@@ -37,7 +37,7 @@ export default class NavButton extends Component {
 
     render() {
         const style = {
-            position: 'absolute',
+            position: 'fixed',
             top: 50,
             left: 50,
             height: 50,
