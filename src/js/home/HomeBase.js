@@ -4,6 +4,8 @@ import '../../css/home/homebase.css';
 import HomeHeader from './components/Header';
 import Team from './components/Team';
 import Games from './components/Games';
+import Clothing from './components/Clothing';
+
 
 
 
@@ -20,6 +22,7 @@ export default class HomeBase extends Component {
     }
 
     componentDidMount(){
+        window.scrollTo(0,0);
 
     }
 
@@ -44,6 +47,7 @@ export default class HomeBase extends Component {
                 <HomeHeader/>
                 <Team/>
                 <Games/>
+                <Clothing/>
 
             </div>
         );

@@ -76,21 +76,11 @@ export default class Team extends Component {
                     <p>A gaming team that de-risks brave decisions making by being courageous, strategic, smart and driven.</p>
                 </div>
 
-                <div className="listContainer">
-                    <TeamList/>
-                </div>
-
+                <div className="listContainer"><TeamList/></div>
 
                 <div className="seeFullTeamContainer">
                     <button onClick={() => this.setState({viewTeam: !this.state.viewTeam})} className="seeTeamButton">{ this.state.viewTeam ? "Hide" : "See Team"}</button>
                 </div>
-
-
-
-
-
-
-
             </div>
         );
     }
