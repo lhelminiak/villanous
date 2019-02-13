@@ -39,7 +39,7 @@ export default class HomeHeader extends Component {
 
     render() {
         const videoOptions = {
-            src: 'http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4',
+            src: 'https://firebasestorage.googleapis.com/v0/b/villainous-2aecc.appspot.com/o/FornniteCinematics.mp4?alt=media&token=3118f341-5b55-4598-966b-ac092c8c47ae',
             autoPlay: true,
             muted: true,
             loop: true,

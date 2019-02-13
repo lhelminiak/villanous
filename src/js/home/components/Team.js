@@ -13,6 +13,7 @@ export default class Team extends Component {
         super(props);
 
         this.state = {
+            viewTeam: false,
 
 
         };
@@ -35,6 +36,38 @@ export default class Team extends Component {
 
     render() {
 
+        const TeamList = () => {
+            if(this.state.viewTeam){
+                //show whole team
+                return (
+                    <div className="teamListContainer">
+                        <TeamMember image="https://picsum.photos/400/400?image=1068" twitchLink={"http://www.twitch.tv"} twitterLink={"http://www.twitter.com"} youtubeLink={'http://www.youtube.com'} name="luke helminiak" role="programmer"/>
+                        <TeamMember image="https://picsum.photos/400/400?image=1050" twitchLink={"http://www.twitch.tv"} twitterLink={"http://www.twitter.com"} youtubeLink={'http://www.youtube.com'} name="Jake kramer" role="Founder"/>
+                        <TeamMember image="https://picsum.photos/400/400?image=1011" twitchLink={"http://www.twitch.tv"} twitterLink={"http://www.twitter.com"} youtubeLink={'http://www.youtube.com'} name="Bill william" role="Some dude"/>
+                        <TeamMember image="https://picsum.photos/400/400?image=1068" twitchLink={"http://www.twitch.tv"} twitterLink={"http://www.twitter.com"} youtubeLink={'http://www.youtube.com'} name="luke helminiak" role="programmer"/>
+                        <TeamMember image="https://picsum.photos/400/400?image=1011" twitchLink={"http://www.twitch.tv"} twitterLink={"http://www.twitter.com"} youtubeLink={'http://www.youtube.com'} name="Bill william" role="Some dude"/>
+                        <TeamMember image="https://picsum.photos/400/400?image=1068" twitchLink={"http://www.twitch.tv"} twitterLink={"http://www.twitter.com"} youtubeLink={'http://www.youtube.com'} name="luke helminiak" role="programmer"/>
+                        <TeamMember image="https://picsum.photos/400/400?image=1011" twitchLink={"http://www.twitch.tv"} twitterLink={"http://www.twitter.com"} youtubeLink={'http://www.youtube.com'} name="Bill william" role="Some dude"/>
+                        <TeamMember image="https://picsum.photos/400/400?image=1068" twitchLink={"http://www.twitch.tv"} twitterLink={"http://www.twitter.com"} youtubeLink={'http://www.youtube.com'} name="luke helminiak" role="programmer"/>
+                        <TeamMember image="https://picsum.photos/400/400?image=1011" twitchLink={"http://www.twitch.tv"} twitterLink={"http://www.twitter.com"} youtubeLink={'http://www.youtube.com'} name="Bill william" role="Some dude"/>
+                        <TeamMember image="https://picsum.photos/400/400?image=1068" twitchLink={"http://www.twitch.tv"} twitterLink={"http://www.twitter.com"} youtubeLink={'http://www.youtube.com'} name="luke helminiak" role="programmer"/>
+                    </div>
+                );
+
+
+
+            } else {
+                return (
+                    <div className="teamListContainer">
+                        <TeamMember image="https://picsum.photos/400/400?image=1068" twitchLink={"http://www.twitch.tv"} twitterLink={"http://www.twitter.com"} youtubeLink={'http://www.youtube.com'} name="luke helminiak" role="programmer"/>
+                        <TeamMember image="https://picsum.photos/400/400?image=1050" twitchLink={"http://www.twitch.tv"} twitterLink={"http://www.twitter.com"} youtubeLink={'http://www.youtube.com'} name="Jake kramer" role="Founder"/>
+                        <TeamMember image="https://picsum.photos/400/400?image=1011" twitchLink={"http://www.twitch.tv"} twitterLink={"http://www.twitter.com"} youtubeLink={'http://www.youtube.com'} name="Bill william" role="Some dude"/>
+                    </div>
+                );
+
+            }
+        };
+
 
         return (
             <div className="teamContainer">
@@ -44,12 +77,12 @@ export default class Team extends Component {
                 </div>
 
                 <div className="listContainer">
-                    <div className="teamListContainer">
-                        <TeamMember image="https://picsum.photos/400/400?image=1068" twitchLink={"http://www.twitch.tv"} twitterLink={"http://www.twitter.com"} youtubeLink={'http://www.youtube.com'} name="luke helminiak" role="programmer"/>
-                        <TeamMember image="https://picsum.photos/400/400?image=1050" twitchLink={"http://www.twitch.tv"} twitterLink={"http://www.twitter.com"} youtubeLink={'http://www.youtube.com'} name="Jake kramer" role="Founder"/>
-                        <TeamMember image="https://picsum.photos/400/400?image=1011" twitchLink={"http://www.twitch.tv"} twitterLink={"http://www.twitter.com"} youtubeLink={'http://www.youtube.com'} name="Bill william" role="Some dude"/>
-                        <TeamMember image="https://picsum.photos/400/400?image=1068" twitchLink={"http://www.twitch.tv"} twitterLink={"http://www.twitter.com"} youtubeLink={'http://www.youtube.com'} name="luke helminiak" role="programmer"/>
-                    </div>
+                    <TeamList/>
+                </div>
+
+
+                <div className="seeFullTeamContainer">
+                    <button onClick={() => this.setState({viewTeam: !this.state.viewTeam})} className="seeTeamButton">{ this.state.viewTeam ? "Hide" : "See Team"}</button>
                 </div>
 
 

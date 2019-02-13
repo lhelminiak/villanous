@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import '../../../css/nav/simpleNav.css';
 import { Link } from 'react-router-dom'
 import history from '../../../js/history';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faTwitch, faTwitter, faYoutube, faInstagram} from '@fortawesome/free-brands-svg-icons'
+
 
 
 
@@ -45,6 +48,28 @@ export default class SimpleNav extends Component {
         history.push('/');
     };
 
+    toShop = () => {
+        window.open("https://aporiacustoms.com/stores/villainous/", "_blank");
+    };
+
+    toTwitch = () => {
+        window.open("https://www.twitch.tv/team_villainous", "_blank");
+    };
+
+    toTwitter = () => {
+        window.open("https://twitter.com/Villainous_Team", "_blank");
+    };
+
+    toYoutube = () => {
+        window.open("https://www.youtube.com/channel/UCP_WLhGqtjn2ocKtuytMS3Q", "_blank");
+    };
+
+    toInstagram = () => {
+        window.open("https://www.instagram.com/teamvillainous/", "_blank");
+    };
+
+
+
 
 
     render() {
@@ -66,11 +91,17 @@ export default class SimpleNav extends Component {
                     <Link to="/games"><span>Partners</span></Link>
                     <Link to="/games"><span>About</span></Link>
 
-                    <div className="shopButton"><p>SHOP</p></div>
+                    <div onClick={this.toShop} className="shopButton"><p>SHOP</p></div>
 
                 </div>
 
-                <div className="rightContainer"></div>
+                <div className="rightContainer">
+                    <FontAwesomeIcon onClick={this.toTwitch} icon={faTwitch} color="white"/>
+                    <FontAwesomeIcon onClick={this.toTwitter} icon={faTwitter} color="white"/>
+                    <FontAwesomeIcon onClick={this.toYoutube} icon={faYoutube} color="white"/>
+                    <FontAwesomeIcon onClick={this.toInstagram} icon={faInstagram} color="white"/>
+
+                </div>
 
             </div>
         );

@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8312947a-2875-4642-a233-1f006dac580e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change beforePath="$PROJECT_DIR$/src/css/home/components/header.css" afterPath="$PROJECT_DIR$/src/css/home/components/header.css" />
-      <change beforePath="$PROJECT_DIR$/src/css/nav/components/navButton.css" afterPath="$PROJECT_DIR$/src/css/nav/components/navButton.css" />
-      <change beforePath="$PROJECT_DIR$/src/css/nav/components/navMenu.css" afterPath="$PROJECT_DIR$/src/css/nav/components/navMenu.css" />
+      <change beforePath="$PROJECT_DIR$/src/css/home/components/team.css" afterPath="$PROJECT_DIR$/src/css/home/components/team.css" />
+      <change beforePath="$PROJECT_DIR$/src/css/nav/simpleNav.css" afterPath="$PROJECT_DIR$/src/css/nav/simpleNav.css" />
       <change beforePath="$PROJECT_DIR$/src/js/home/components/Header.js" afterPath="$PROJECT_DIR$/src/js/home/components/Header.js" />
       <change beforePath="$PROJECT_DIR$/src/js/home/components/Team.js" afterPath="$PROJECT_DIR$/src/js/home/components/Team.js" />
-      <change beforePath="$PROJECT_DIR$/src/js/nav/components/NavButton.js" afterPath="$PROJECT_DIR$/src/js/nav/components/NavButton.js" />
-      <change beforePath="$PROJECT_DIR$/src/js/nav/components/NavMenu.js" afterPath="$PROJECT_DIR$/src/js/nav/components/NavMenu.js" />
+      <change beforePath="$PROJECT_DIR$/src/js/nav/components/SimpleNav.js" afterPath="$PROJECT_DIR$/src/js/nav/components/SimpleNav.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="262">
-              <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+              <caret line="56" column="32" lean-forward="false" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="e#159#218#0" expanded="true" />
@@ -38,8 +36,8 @@
       <file leaf-file-name="SimpleNav.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/nav/components/SimpleNav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="68" column="65" lean-forward="true" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
+            <state relative-caret-position="250">
+              <caret line="90" column="66" lean-forward="true" selection-start-line="90" selection-start-column="66" selection-end-line="90" selection-end-column="66" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -47,43 +45,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simpleNav.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="simpleNav.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/nav/simpleNav.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+            <state relative-caret-position="517">
+              <caret line="92" column="20" lean-forward="true" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GamePage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/gamepage/GamePage.js">
+      <file leaf-file-name="Games.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/home/components/Games.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1277">
-              <caret line="49" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gamepage.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/gamepage/gamepage.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="127" column="17" lean-forward="false" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+            <state relative-caret-position="415">
+              <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Team.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Team.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/home/components/Team.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="47" column="83" lean-forward="false" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="83" />
+            <state relative-caret-position="361">
+              <caret line="84" column="160" lean-forward="false" selection-start-line="84" selection-start-column="160" selection-end-line="84" selection-end-column="160" />
               <folding />
             </state>
           </provider>
@@ -92,18 +78,8 @@
       <file leaf-file-name="team.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/home/components/team.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/home/components/header.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="310">
+              <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -133,7 +109,6 @@
         <option value="$PROJECT_DIR$/src/js/nav/componets/NavButton.js" />
         <option value="$PROJECT_DIR$/src/js/home/components/TeamList.js" />
         <option value="$PROJECT_DIR$/src/js/home/components/TeamMembere.js" />
-        <option value="$PROJECT_DIR$/src/css/home/components/team.css" />
         <option value="$PROJECT_DIR$/src/css/home/components/teamMember.css" />
         <option value="$PROJECT_DIR$/src/js/home/components/TeamMember.js" />
         <option value="$PROJECT_DIR$/src/css/home/components/games.css" />
@@ -141,16 +116,17 @@
         <option value="$PROJECT_DIR$/src/js/home/HomeBase.js" />
         <option value="$PROJECT_DIR$/src/css/nav/components/navMenu.css" />
         <option value="$PROJECT_DIR$/src/js/nav/components/NavMenu.js" />
-        <option value="$PROJECT_DIR$/src/js/home/components/Team.js" />
         <option value="$PROJECT_DIR$/src/js/nav/components/NavButton.js" />
         <option value="$PROJECT_DIR$/src/css/nav/components/navButton.css" />
-        <option value="$PROJECT_DIR$/src/js/home/components/Header.js" />
         <option value="$PROJECT_DIR$/src/css/gamepage/gamepage.css" />
         <option value="$PROJECT_DIR$/src/js/gamepage/GamePage.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/css/home/components/header.css" />
-        <option value="$PROJECT_DIR$/src/js/nav/components/SimpleNav.js" />
+        <option value="$PROJECT_DIR$/src/js/home/components/Header.js" />
         <option value="$PROJECT_DIR$/src/css/nav/simpleNav.css" />
+        <option value="$PROJECT_DIR$/src/js/nav/components/SimpleNav.js" />
+        <option value="$PROJECT_DIR$/src/css/home/components/team.css" />
+        <option value="$PROJECT_DIR$/src/js/home/components/Team.js" />
       </list>
     </option>
   </component>
@@ -328,12 +304,12 @@
       <workItem from="1544485058203" duration="7000" />
       <workItem from="1545339841117" duration="16316000" />
       <workItem from="1549910670541" duration="8000" />
-      <workItem from="1549910704214" duration="11190000" />
+      <workItem from="1549910704214" duration="13270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30338000" />
+    <option name="totallyTimeSpent" value="32418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -600,14 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -620,13 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
           <caret line="133" column="11" lean-forward="true" selection-start-line="133" selection-start-column="11" selection-end-line="133" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/home/components/TeamMember.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="64" column="63" lean-forward="true" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -668,22 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/home/components/games.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/home/components/Games.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="49" column="55" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/home/HomeBase.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -692,50 +637,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/home/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="62" column="215" lean-forward="false" selection-start-line="62" selection-start-column="215" selection-end-line="62" selection-end-column="215" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/home/homebase.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/home/components/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/home/components/team.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/home/components/Team.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="47" column="83" lean-forward="false" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/gamepage/gamepage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="127" column="17" lean-forward="false" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -753,7 +658,7 @@
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
-          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+          <caret line="56" column="32" lean-forward="false" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <element signature="e#159#218#0" expanded="true" />
@@ -762,20 +667,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/nav/components/SimpleNav.js">
+    <entry file="file://$PROJECT_DIR$/src/css/home/components/header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="68" column="65" lean-forward="true" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
+        <state relative-caret-position="460">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/home/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="41" column="168" lean-forward="false" selection-start-line="41" selection-start-column="168" selection-end-line="41" selection-end-column="168" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/home/components/TeamMember.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="61" column="52" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/nav/components/SimpleNav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="90" column="66" lean-forward="true" selection-start-line="90" selection-start-column="66" selection-end-line="90" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/gamepage/gamepage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="127" column="17" lean-forward="false" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/home/components/games.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="69" column="1" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="69" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/home/components/Games.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/home/components/team.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/nav/simpleNav.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+        <state relative-caret-position="517">
+          <caret line="92" column="20" lean-forward="true" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/home/components/Team.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="84" column="160" lean-forward="false" selection-start-line="84" selection-start-column="160" selection-end-line="84" selection-end-column="160" />
           <folding />
         </state>
       </provider>
